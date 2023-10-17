@@ -1,0 +1,38 @@
+
+.term-condition h2{
+    padding-left: 20px;
+    padding-right: 180px;
+}
+
+.term-condition h3{
+    padding-left: 20px;
+    padding-right: 180px;
+}
+
+.term-condition p{
+    padding-left: 20px;
+    padding-right: 180px;
+}
+
+.term-condition h2 {
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    .term-condition h2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .term-condition h3{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .term-condition p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+

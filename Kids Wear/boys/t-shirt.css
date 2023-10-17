@@ -1,0 +1,319 @@
+
+.t-shirt-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+/* Box */
+
+.t-shirt-boxes .t-shirt-box {
+    width: 250px;
+    height: 350px;
+    background: #F5F5F5;
+    /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.t-shirt-box>img {
+    width: 150px;
+    position: relative;
+    left: 40px;
+    /* background: #fff; */
+}
+
+.t-shirt-box h4 {
+    font-size: 0.8rem;
+}
+
+.t-shirt-box p {
+    font-size: 0.8rem;
+    color: rgb(93, 88, 88);
+}
+
+.brand {
+    height: 30px;
+    width: 120px;
+}
+
+.brand img {
+    width: 100%;
+    height: 100%;
+}
+
+.t-shirt-box span {
+    color: #409244;
+}
+
+del {
+    color: grey;
+}
+
+.button-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-section button {
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: #D0E7D2;
+    font-weight: 800;
+}
+
+.button-section button:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Max-width : 700px */
+
+@media (max-width: 700px) {
+
+    .t-shirt-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+        width: 100%;
+        height: fit-content;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .t-shirt-boxes .t-shirt-box {
+        width: 120px;
+        height: 180px;
+        background: #F5F5F5;
+        /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    .t-shirt-box>img {
+        width: 70px;
+        position: relative;
+        left: 10px;
+        /* background: #fff; */
+    }
+
+    .t-shirt-box h4 {
+        font-size: 0.5rem;
+    }
+    
+    .t-shirt-box p {
+        font-size: 0.5rem;
+        color: rgb(93, 88, 88);
+    }
+
+    .brand {
+        margin-top: 0px;
+        height: 10px;
+        width: 40px;
+    }
+    
+    .brand img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 8px;
+    }
+
+    .button-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0px;
+        padding: 0px 5px;
+    }
+
+    .button-section button {
+        width: 40px;
+        height: 12px;
+        border-radius: 3px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        background: #D0E7D2;
+        font-size: 0.3rem;
+    }   
+     
+
+}
+
+/* Max-width : 420px */
+
+@media (max-width: 420px) {
+
+    .t-shirt-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+        width: 100%;
+        height: fit-content;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .t-shirt-boxes .t-shirt-box {
+        width: 80px;
+        height: 130px;
+        background: #F5F5F5;
+        /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    .t-shirt-box>img {
+        width: 45px;
+        position: relative;
+        left: 13px;
+        /* background: #fff; */
+    }
+
+    .t-shirt-box h4 {
+        font-size: 0.4rem;
+    }
+    
+    .t-shirt-box p {
+        font-size: 0.4rem;
+        color: rgb(93, 88, 88);
+    }
+
+    .brand {
+        margin-top: 0px;
+        height: 10px;
+        width: 40px;
+    }
+    
+    .brand img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 8px;
+    }
+
+    .button-section {
+        height: 15px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0px;
+        padding: 0px 5px;
+    }
+
+    .button-section button {
+        width: 25px;
+        height: 8px;
+        border-radius: 2px;
+        border: none;
+        background: #D0E7D2;
+        font-size: 0.2rem;
+    }    
+
+    .button-section:first-child{
+        position: relative;
+        top: 0;
+        bottom: 20px;
+    }
+
+}
+
+/* Max-width : 400px */
+
+@media (max-width: 400px) {
+
+    .t-shirt-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+        width: 100%;
+        height: fit-content;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .t-shirt-boxes .t-shirt-box {
+        width: 80px;
+        height: 130px;
+        background: #F5F5F5;
+        /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    .t-shirt-box>img {
+        width: 45px;
+        position: relative;
+        left: 13px;
+        /* background: #fff; */
+    }
+
+    .t-shirt-box h4 {
+        font-size: 0.4rem;
+    }
+    
+    .t-shirt-box p {
+        font-size: 0.4rem;
+        color: rgb(93, 88, 88);
+    }
+
+    .brand {
+        margin-top: 0px;
+        height: 10px;
+        width: 40px;
+    }
+    
+    .brand img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 8px;
+    }
+
+    .button-section {
+        width: 100%;
+        height: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+        padding: 0px 5px;
+    }
+
+    .button-section button {
+        width: 25px;
+        height: 8px;
+        border-radius: 2px;
+        border: none !important;
+        background: #D0E7D2;
+        font-size: 0.2rem;
+    }    
+
+    .button-section:first-child{
+        position: relative;
+        top: 0;
+        bottom: 20px;
+    }
+
+}

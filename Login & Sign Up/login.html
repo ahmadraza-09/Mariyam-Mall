@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- External CSS Files -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <link rel="stylesheet" href="login.css">
+
+    <!-- Website Favicon Icon -->
+    <link rel="icon" type="image/x-icon" href="../Images/logo.png">
+
+    <!-- Google Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="flex-div">
+
+        <div class="nav-left flex-div">
+            <a href="login.html"><img src="../Images/logo.png" alt=""></a>
+            <a href="login.html"><h3>Mariyam's Mall</h3></a>
+        </div>
+
+        <div class="nav-right flex-div">
+            <div class="nav-search flex-div">
+                <input type="text" placeholder="Search...">
+                <div class="flex-div"><img src="../Images/search-icon.png" alt=""></div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Login Form -->
+
+    <div class="login">
+        <form class="login-form" action="../After Login & Sign Up/index.html" method="get" onsubmit=" return sendvalue()" name="loginform">
+            <h3>Login</h3>
+            <br>
+
+            <!-- Alert Show Section -->
+            <div id="show-alert"></div>
+            <br>
+            <!-- User Name -->
+            <div class="username">
+                <label>User Name</label>
+                <input type="text" name="username" id="username">
+            </div>
+
+            <!-- Password -->
+            <div class="password">
+                <label>Password</label>
+                <input type="password" name="password" id="password" >
+            </div>
+
+            <!-- Login Button -->
+            <input type="submit" name="login-button" value="Login" id="login-btn">
+
+            <!-- Create New Acount -->
+            <div class="create-acount">
+                <h3>Not a member</h3>
+                <a href="signup.html"><h3>Create New Acount</h3></a>
+            </div>
+
+        </form>
+    </div>
+    
+    <script src="login.js"></script>
+</body>
+</html>

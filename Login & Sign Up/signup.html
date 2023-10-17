@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <!-- External CSS Files -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <link rel="stylesheet" href="signup.css">
+
+    <!-- Website Favicon Icon -->
+    <link rel="icon" type="image/x-icon" href="../Images/logo.png">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/17b927db1b.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="flex-div">
+
+        <div class="nav-left flex-div">
+            <a href="signup.html"><img src="../Images/logo.png" alt=""></a>
+            <a href="signup.html"><h3>Mariyam's Mall</h3></a>
+        </div>
+
+        <div class="nav-right flex-div">
+            <div class="nav-search flex-div">
+                <input type="text" placeholder="Search...">
+                <div class="flex-div"><img src="../Images/search-icon.png" alt=""></div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Sign Up Form -->
+
+    <div class="signup">
+        <form class="signup-form" action="../After Login & Sign Up/index.html" method="get" onsubmit=" return sendvalue()" name="signupform">
+            <h3>Sign Up</h3>
+            <br>
+
+            <!-- Alert Show Section -->
+            <div id="show-alert"></div>
+            <br>
+            <!-- First Name -->
+            <div class="firstName">
+                <label>First Name</label>
+                <input type="text" name="firstName">
+            </div>
+
+            <!-- Last Name -->
+            <div class="lastName">
+                <label>Last Name</label>
+                <input type="text" name="lastName">
+            </div>
+
+            <!-- Email Id -->
+            <div class="email">
+                <label>Email Id</label>
+                <input type="text" name="email">
+            </div>
+
+            <!-- Date Of Birth -->
+            <div class="dateOfBirth">
+                <label>Date Of Birth</label>
+                <input type="date" name="dateOfBirth">
+            </div>
+
+            <!-- Mobile Number -->
+            <div class="mobileNumber">
+                <label>Mobile Number</label>
+                <input type="text" name="mobileNumber">
+            </div>
+
+            <!-- Password -->
+            <div class="password">
+                <label>Password</label>
+                <input type="password" id="password" name="password" onclick="showPassword()"><i class="fa-regular fa-eye" onclick="showPassword()"></i>
+            </div>
+
+            <!-- Confirm Password -->
+            <div class="confirmPassword">
+                <label>Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword"><i class="fa-regular fa-eye" onclick="showConfirmPassword()"></i>
+            </div>
+
+            <!-- Signup Button -->
+            <input type="submit" name="signup-button" value="Sign Up" id="signup-btn">
+
+            <!-- Log In -->
+            <div class="member">
+                <h3>Already a member</h3>
+                <a href="login.html"><h3>Sign In</h3></a>
+            </div>
+
+        </form>
+    </div>
+    
+    <script src="signup.js"></script>
+</body>
+</html>

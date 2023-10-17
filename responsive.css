@@ -1,0 +1,436 @@
+/* Width -- 900px */
+
+@media (max-width: 900px) {
+    
+    .nav-middle {
+        display: none;
+    }
+
+    .logo-foot img {
+        width: 30px;
+    }
+
+    .logo-foot h3 {
+        font-size: 25px;
+    }
+
+    .footer-logo p {
+        font-size: 14px;
+    }
+
+    .footer-contents {
+        gap: 20px;
+    }
+
+    .left-delivery img {
+        width: 250px;
+    }
+
+    .right-delivery {
+        width: 500px;
+        margin-left: 0px;
+    }
+
+}
+
+/* Width -- 800px */
+
+@media (max-width: 800px) and (max-width: 700px) {
+    
+    .left-delivery img {
+        width: 250px;
+    }
+
+    .right-delivery {
+        width: 500px;
+        margin-left: 0px;
+    }
+
+    .payment img {
+        display: none !important;
+    }
+}
+
+/* Width -- 663px */
+
+@media (max-width: 663px) {
+
+    .nav-left img {
+        width: 30px;
+    }
+
+    .nav-left h3 {
+        font-size: 25px;
+    }
+
+    .box {
+        width: 100px;
+        height: 130px;
+    }
+
+    .kids h3,
+    .mens h3,
+    .womens h3, 
+    .sports h3, 
+    .electronics h3,
+    .furniture h3{
+        font-size: 0.8rem;
+    }
+
+    .kids img {
+        width: 80px;
+    }
+
+    .mens img {
+        width: 70px;
+    }
+
+    .womens img {
+        width: 69px;
+        margin-top: 0px;
+    }
+
+    .sports img {
+        width: 120px;
+        margin-top: 0px;
+    }
+
+    .electronics img {
+        width: 60px;
+        margin-top: 20px;
+    }
+    .furniture img {
+        width: 100px;
+    }
+
+    .service {
+        gap: 20px;
+        padding-left: 10px;
+    }
+
+    .left-delivery img {
+        width: 230px;
+    }
+
+    .right-delivery {
+        width: 400px;
+        margin-left: 0px;
+    }
+}
+
+/* Width -- 520px */
+
+@media (max-width: 520px) {
+
+    .nav-left h3 {
+        font-size: 22px;
+    }
+
+    .service {
+        margin-top: 80px;
+    }
+
+    .our-partners {
+        margin-top: 40px;
+    }
+}
+
+/* Width -- 480px */
+
+@media (max-width: 480px) {
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .nav-left img {
+        width: 22px;
+    }
+
+   /* Our Branchs And Partners */
+
+   .our-branchs>h3, 
+   .our-partners>h3 {
+       font-size: 16px;
+       font-weight: 800;
+   }
+
+   .branch,
+   .partner {
+        width: 80px;
+        height: 100px;
+   }
+
+   .branch h3,
+   .partner h3 {
+    font-size: 12px;
+   }
+
+   .branch img,
+   .partner img {
+        width: 60px;
+        height: 60px;
+   }
+
+    .service {
+        display: block;
+        margin-top: 20px;
+        height: 150px;
+    }
+
+    .service img {
+        display: none !important;
+    }
+
+    .right-delivery {
+        width: 400px;
+        margin-top: 0px;
+    }
+
+    .right-delivery p {
+        font-size: 12px;
+    }
+
+    .right-delivery h3 {
+        font-size: 15px;
+    }
+
+    hr {
+        display: flex;
+    }
+
+    /* Footer */
+
+    footer {
+        height: 650px;
+        width: 100%;
+        padding-left: 20px;
+    }
+    
+    .footer-contents {
+        display: block !important;
+        height: 600px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .footer-logo p {
+        margin: 0px;
+    }
+
+    .shop,
+    .customer-service,
+    .policy {
+        margin-top: 20px;
+    }
+
+    .shop h3,
+    .customer-service h3,
+    .policy h3{
+        font-weight: 700;
+    }
+}
+
+/* Width -- 400px */
+
+@media (max-width: 400px) {
+
+    .service {
+        display: block;
+        margin-top: 20px;
+        height: 180px;
+    }
+
+    .service img {
+        display: none;
+    }
+
+    .right-delivery {
+        width: 350px;
+        margin-top: 0px;
+    }
+
+    .right-delivery p {
+        font-size: 12px;
+    }
+
+    .right-delivery h3 {
+        font-size: 15px;
+        text-align: start;
+    }
+    
+}
+
+/* Width -- 380px */
+
+@media (max-width: 390px) {
+    
+    /* Navbar */
+
+    .nav-left img {
+        width: 20px;
+    }
+
+    .nav-left h3 {
+        font-size: 18px;
+    }
+
+    .nav-right .nav-search input {
+        width: 60px;
+    }
+
+    .nav-right button {
+        width: 50px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+     /* Services */
+
+   .our-services h3 {
+        font-size: 18px;
+    }
+
+    .service {
+        height: 250px;
+        margin-bottom: 0px;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .right-delivery {
+        width: 300px;
+        margin-top: 0px;
+    }
+
+    .right-delivery p {
+        font-size: 14px;
+}
+
+    .right-delivery h3 {
+        font-size: 16px;
+}
+
+    hr {
+        display: none;
+}
+
+}
+
+
+/* Width -- 320px */
+
+@media (max-width: 320px) {
+    
+    /* Navbar */
+
+    .nav-left img {
+        width: 20px;
+    }
+
+    .nav-left h3 {
+        font-size: 16px;
+    }
+
+    .nav-right .nav-search input {
+        width: 35px;
+    }
+
+    .nav-right button {
+        width: 50px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    /* Our Branchs And Partners */
+
+   .our-branchs>h3, 
+   .our-partners>h3 {
+       font-size: 16px;
+       font-weight: 800;
+   }
+
+   .branch,
+   .partner {
+        width: 80px;
+        height: 100px;
+   }
+
+   .branch h3,
+   .partner h3 {
+    font-size: 12px;
+   }
+
+   .branch img,
+   .partner img {
+        width: 60px;
+        height: 60px;
+   }
+
+   /* Services */
+
+   .our-services h3 {
+        font-size: 16px;
+   }
+
+   .service {
+    height: 250px;
+    margin-bottom: 0px;
+    height: fit-content;
+    margin-top: 20px;
+   }
+
+   .right-delivery {
+        width: 250px;
+        margin-top: 0px;
+    }
+
+    .right-delivery p {
+        font-size: 10px;
+    }
+
+    .right-delivery h3 {
+        font-size: 12px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    /* Footer */
+
+    footer {
+        height: fit-content ;
+    }
+
+    .footer-logo p {
+        font-size: 0.7rem;
+    }
+
+    .footer-contents {
+        height: 500px;
+    }
+
+    .shop h3,h4,
+    .customer-service h3,h4,
+    .policy h3,h4 {
+        font-weight: 100;
+        flex-wrap: wrap;
+        font-size: 0.8rem;
+    }
+
+    .shop h3,
+    .customer-service h3,
+    .policy h3 {
+        font-weight: 800;
+    }
+
+    .copyright p {
+        font-size: 0.7rem;
+    }
+
+}

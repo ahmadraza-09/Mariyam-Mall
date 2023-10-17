@@ -1,0 +1,202 @@
+
+/* Boys Wear */
+/*  Boy T-Shirt  */
+
+.boy-tshirt h3{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.boy-tshirt img {
+    width: 100px;
+    margin-top: 0px;
+}
+
+/*  Boy Shirt  */
+
+.boy-shirt h3{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.boy-shirt img {
+    width: 130px;
+    margin-top: 0px;
+}
+
+/*  Boy Jeans  */
+
+.boy-jeans h3{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.boy-jeans img {
+    width: 150px;
+    margin-top: 10px;
+}
+
+/*  Boy Shoes  */
+
+.boy-shoes h3{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.boy-shoes img {
+    width: 130px;
+    margin-top: 10px;
+}
+
+/*  Boy Sleepers  */
+
+.boy-sleepers h3{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.boy-sleepers img {
+    width: 130px;
+    margin-top: 10px;
+}
+
+/* Girls Wear */
+/*  Girl T-Shirt  */
+
+.girl-tshirt h3{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.girl-tshirt img {
+    width: 140px;
+    margin-top: 0px;
+}
+
+/*  Girl Frock */
+
+.girl-frock h3{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.girl-frock img {
+    width: 100px;
+    margin-top: 0px;
+}
+
+/*  Girl Jeans  */
+
+.girl-jeans h3{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.girl-jeans img {
+    width: 70px;
+    margin-top: 0px;
+}
+
+/*  Girl Shoes  */
+
+.girl-shoes h3{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.girl-shoes img {
+    width: 130px;
+    margin-top: 10px;
+}
+
+/*  Girls Sleepers  */
+
+.girl-sleepers h3{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.girl-sleepers img {
+    width: 130px;
+    margin-top: 10px;
+}
+
+/* Max-width : 663px */
+
+@media (max-width: 663px) {
+    
+    /* Boys Section Responsive */
+
+    .boy-tshirt h3,
+    .boy-shirt h3,
+    .boy-jeans h3,
+    .boy-shoes h3,
+    .boy-sleepers h3 {
+        font-size: 0.8rem;
+    }
+
+    .boy-tshirt img {
+        width: 70px;
+    }
+
+    .boy-shirt img {
+        width: 80px;
+    }
+
+    .boy-jeans img {
+        width: 100px;
+        margin-top: 0px;
+        position: relative;
+        right: 10px;
+    }
+
+    .boy-shoes img {
+        width: 100px;
+        margin-top: 0px;
+        position: relative;
+        right: 10px;
+    }
+
+    .boy-sleepers img {
+        width: 80px;
+        margin-top: 20px;
+    }
+
+    /* Girls Section Responsive */
+
+    .girl-tshirt h3,
+    .girl-jeans h3,
+    .girl-shoes h3,
+    .girl-frock h3,
+    .girl-sleepers h3 {
+        font-size: 0.8rem;
+    }
+
+    .girl-tshirt img {
+        width: 100px;
+        position: relative;
+        right: 10px;
+    }
+
+    .girl-jeans img {
+        width: 50px;
+        margin-top: 0px;
+    }
+
+    .girl-shoes img {
+        width: 100px;
+        margin-top: 0px;
+        position: relative;
+        right: 10px;
+    }
+
+    .girl-sleepers img {
+        width: 80px;
+        margin-top: 20px;
+    }
+
+    .girl-frock img {
+        width: 70px;
+        margin-top: 0px;
+    }
+}
