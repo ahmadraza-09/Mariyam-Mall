@@ -1,0 +1,476 @@
+
+
+
+.main-section {
+    width: 100%;
+    padding-top: 20px;
+    height: fit-content;
+    background-color: #fff;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.left-main-section {
+    width: 50%;
+    height: 503px;
+    background-color: #fff;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /* border: 2px solid #000; */
+    /* position: fixed; */
+
+}
+
+.left-main-section .main-left {
+    width: 15%;
+    height: 190px;
+    background: #fff;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid #000; */
+}
+
+.left-main-section .main-left img {
+    width: 60px;
+    border: 2px solid #000;
+}
+
+.left-main-section .main-right {
+    width: 82%;
+    height: 500px;
+    background: #fff;
+    /* border: 2px solid #000; */
+}
+
+.left-main-section .main-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-main-section {
+    width: 60%;
+    height: fit-content;
+    background-color: #fff;
+    display: table-column;
+    align-items: start;
+    justify-content: space-between;
+    /* border: 2px solid #000; */
+    padding-left: 20px;
+    color: #000;
+    /* margin-left: 510px; */
+    /* padding-top: 100px; */
+}
+
+.right-main-section .product-content {
+    line-height: 1.7;
+}
+
+.right-main-section .product-content h4 {
+    font-size: 1rem;
+    color: #000;
+}
+
+.right-main-section .product-content h3 {
+    font-size: 1rem;
+    color: rgba(93, 88, 88, 0.6);
+}
+
+.right-main-section .product-content img {
+    height: 30px;
+    width: 120px;
+}
+
+.right-main-section .product-content span {
+    color: #409244;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.price-section {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.price-section>h4 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+del {
+    color: grey;
+    font-family: sans-serif;
+}
+
+.color-size .color-section,
+.color-size .size-section {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.color-size .color-section h3,
+.color-size .size-section h3 {
+    font-weight: 100;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.color-section img {
+    width: 60px;
+    border: 2px solid #000;
+}
+
+.available-offers {
+    line-height: 2.5;
+}
+
+.size-section button {
+    width: 40px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.available-offers h3 {
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.available-offers h4 {
+    font-weight: 100;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.available-offers i {
+    color: #409244;
+}
+
+
+.buy-btns {
+    width: 550px;
+    height: fit-content;
+    display: flex;
+    padding: 20px;
+    padding-top: 0;
+    align-items: start;
+    /* border: 2px solid #000; */
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.buy-btns button {
+    width: 200px;
+    height: 35px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: #000;
+    border: none !important;
+    background-color: #e7a637;
+    /* border-radius: 5px; */
+}
+
+.buy-btns button:hover {
+    background-color: #eab456 ;
+}
+
+.three-symbols {
+    height: 80px;
+    width: 100%;
+    border-bottom: 6px solid rgba(0, 0, 0, 0.2);
+    border-top: 6px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.symbol {
+    width: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.symbol .symbol-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 55px;
+    background: #FFE321;
+    color: #FB4906;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.symbol-text {
+    text-align: start;
+}
+
+.symbol .symbol-text h3 {
+    font-size: 18px;
+    /* font-family: sans-serif; */
+}
+
+.symbol .symbol-text h4 {
+    font-size: 15px;
+    /* font-family: sans-serif; */
+    margin-top: 3px;
+    color: #5a5a5a;
+}
+
+footer {
+    margin-top: 0px;
+}
+
+/* Max-Width 900px */
+@media (max-width: 900px) {
+
+    .left-main-section .main-right {
+        width: 82%;
+        height: 400px;
+        background: #fff;
+        /* border: 2px solid #000; */
+    }
+
+    .buy-btns {
+        width: 400px;
+        height: 0px;
+        margin-left: 20px;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .buy-btns button {
+        width: 150px;
+    }
+
+    
+}
+
+/* Max-Width 750px */
+@media (max-width: 750px) {
+
+    .main-section {
+        height: fit-content;
+    }
+
+    .left-main-section {
+        height: fit-content;
+    }
+
+    .left-main-section .main-left {
+        margin-left: 20px;
+    }
+
+    .right-main-section {
+        height: fit-content;
+    }
+
+    .left-main-section .main-right {
+        width: 72%;
+        height: 300px;
+        background: #fff;
+        /* border: 2px solid #000; */
+    }
+
+    .buy-btns {
+        width: 320px;
+        height: fit-content;
+        margin-left: 0px;
+        position: relative;
+        bottom: 220px;
+    }
+
+    .buy-btns button {
+        width: 120px;
+        font-size: 0.8rem;
+    }
+
+    .available-offers {
+        width: 650px;
+        height: fit-content;
+        position: relative;
+        right: 300px;
+        top: 20px;
+    }
+
+    
+}
+
+/* Max-Width 480px */
+@media (max-width: 480px) {
+
+    .main-section {
+        display: grid;
+    }
+
+    .left-main-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .left-main-section .main-left {
+        display: none;
+    }
+
+    .left-main-section .main-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        right: 0px;
+    }
+
+    .left-main-section .main-right img {
+        width: 300px;
+    }
+
+    .buy-btns {
+        position: relative;
+        bottom: 320px;
+        width: 70%;
+    }
+    
+    .available-offers {
+        margin-top: 50px;
+        width: 450px;
+        position: relative;
+        right: 0px;
+    }
+
+    .three-symbols {
+        display: none;
+    }
+}
+
+/* Max-Width : 390px */
+@media (max-width: 390px) {
+    
+    .left-main-section {
+        height: 200px;
+    }
+
+    .left-main-section .main-right {
+        height: 100%;
+        width: 200px;
+        margin-right: 0px;
+    }
+
+    .buy-btns {
+        width: 90%;
+        position: relative;
+        bottom: 330px;
+    }
+
+    .available-offers {
+        width: 350px;
+        margin-top: 30px;
+    }
+
+}
+
+/* Max-Width : 340px */
+@media (max-width: 340px) {
+
+
+
+    .right-main-section {
+        width: 100%;
+    }
+
+    .buy-btns {
+        width: 100%;
+        position: relative;
+        bottom: 400px;
+    }
+    
+    .available-offers {
+        width: 300px;
+    }
+}
+
+/* Max-Width : 285px */
+@media (max-width: 285px) {
+
+    .left-main-section .main-right {
+        margin-right: 30px;
+    }
+
+    .right-main-section {
+        width: 90%;
+    }
+
+    .right-main-section .product-content h3, h4, p, span {
+        font-size: 0.8rem;
+    }
+
+    .right-main-section .product-content img {
+        height: 25px;
+        width: 100px;
+    }
+
+    .color-size .color-section,
+    .color-size .size-section {
+        width: 100%;
+        align-items: start;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+
+    .color-size .color-section h3,
+    .color-size .size-section h3 {
+        font-weight: 100;
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .color-section img {
+        width: 40px;
+        border: 2px solid #000;
+    }
+
+    .size-section button {
+        width: 30px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
+
+    .buy-btns button {
+        width: 100px;
+        height: 32px;
+        font-size: 0.7rem;
+    }
+
+    .available-offers {
+        width: 250px;
+    }
+
+    .available-offers h4 {
+        font-size: 0.7rem;
+    }
+
+    .available-offers span {
+        font-size: 0.7rem;
+    }
+
+    .buy-btns {
+        position: relative;
+        bottom: 350px;
+    }
+    
+}

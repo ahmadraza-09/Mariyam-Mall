@@ -1,0 +1,9 @@
+
+@media (max-width: 900px) {
+
+    .left-main-section .main-left img {
+        width: 40px;
+        border: 2px solid #000;
+    }
+    
+}

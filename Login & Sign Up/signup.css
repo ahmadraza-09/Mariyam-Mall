@@ -257,6 +257,10 @@ nav input::placeholder {
 
 /* Responsive Over 400px */
 @media (max-width: 400px) {
+
+    .signup {
+        height: 603px;
+    }
     
     .signup-form {
         width: 300px;
